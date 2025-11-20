@@ -341,10 +341,10 @@ const MXFP4Visualizer = () => {
             </div>
 
             {/* Charts: Reconstruction & Error */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-72">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
                 {/* Chart 1: Values Comparison */}
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+                <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 h-72">
                     <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
                         数值还原对比 (Reconstruction)
                     </h3>
@@ -366,7 +366,7 @@ const MXFP4Visualizer = () => {
                 </div>
 
                 {/* Chart 2: Error Comparison */}
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+                <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 h-72">
                     <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
                         误差幅度对比 (Error Magnitude)
                     </h3>
