@@ -2,6 +2,17 @@
 
 这是一个基于 React 和 Vite 构建的交互式可视化工具，旨在帮助用户直观地理解 **MXFP4 (Micro-scaling Formats for Floating-Point)** 数据格式。通过图形化界面，用户可以探索不同的浮点数表示、缩放因子以及量化过程。
 
+![MXFP4 Visualizer 截图](./screenshot.png)
+
+*MXFP4 Visualizer 主界面展示*
+
+## ✨ 功能特点
+
+*   **交互式可视化**：动态展示 MXFP4 格式的编码和解码过程。
+*   **实时图表**：使用 Recharts 绘制数据分布和量化误差。
+*   **现代 UI 设计**：基于 Tailwind CSS 构建的简洁、响应式界面。
+*   **图标支持**：集成 Lucide React 图标库，提升用户体验。
+
 ## ✨ 功能特点
 
 *   **交互式可视化**：动态展示 MXFP4 格式的编码和解码过程。
